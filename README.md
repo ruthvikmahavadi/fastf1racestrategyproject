@@ -26,20 +26,23 @@ To get started with the project locally:
 2. **Python** (3.x) for running the backend (FastAPI server).
 3. Install the required dependencies for both frontend and backend.
 
-### Backend Setup
+
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/ruthvikmahavadi/fastf1racestrategyproject.git
    cd fastf1racestrategyproject/backend
 
+### Backend setup
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-###frontend setup
+###Frontend setup
+'''bash
 cd frontend
 npm install
 npm start
