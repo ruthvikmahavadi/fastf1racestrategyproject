@@ -6,3 +6,4 @@ scikit-learn
 pandas
 python-multipart  # If your FastAPI form handles file uploads or multipart data
 joblib
+xgboost
