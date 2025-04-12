@@ -46,15 +46,5 @@ npm start
 
 
 
-PROJECT/
-├── backend/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── new_models/ (ML models & encoders)
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-└── .gitignore
 
 
