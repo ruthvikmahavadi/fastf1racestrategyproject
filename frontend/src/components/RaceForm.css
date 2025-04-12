@@ -1,0 +1,136 @@
+.race-page {
+    min-height: 100vh;
+    background-color: #0a0a0a;
+    padding: 2rem 1rem;
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff4444;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    padding: 2rem;
+    background-color: #111;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    border-radius: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f2f2f2;
+  }
+  
+  .race-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .race-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #ff4444;
+  }
+  
+  .race-form input,
+  .race-form select {
+    margin-top: 6px;
+    padding: 10px 12px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #1a1a1a;
+    color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .race-form input:focus,
+  .race-form select:focus {
+    outline: none;
+    border-color: #ff4444;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.6);
+  }
+  
+  .race-form button {
+    padding: 12px 16px;
+    background-color: #ff4444;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .race-form button:hover {
+    background-color: #cc0000;
+  }
+  
+  .result-section {
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 700px;
+    background: #111;
+    color: #f2f2f2;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  }
+  
+  .result-section h2,
+  .result-section h3 {
+    color: #ff4444;
+    margin-bottom: 1rem;
+  }
+  
+  .info-block {
+    margin-bottom: 1rem;
+  }
+  
+  .info-block p {
+    margin: 4px 0;
+  }
+  
+  .big-output {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff4444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .result-section table {
+    width: 100%;
+    border-top:  1px solid #ffffff;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    background-color: #111;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .result-section thead {
+    /* border-top:  1px solid #ffffff; */
+    background-color: #0a0a0a;
+  }
+  
+  .result-section th {
+    padding: 14px 16px;
+    color: #ff4444;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+    text-align: center;
+  }
+  
+  .result-section td {
+    padding: 12px 16px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+    color: #f2f2f2;
+  }
+  
+  
